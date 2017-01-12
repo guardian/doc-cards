@@ -13,7 +13,7 @@ var snapCss = fs.readFileSync('build/css/snap.css', 'utf8');
 var homeHtml = fs.readFileSync('src/templates/index.html', 'utf8');
 
 // data
-var podcasts = require('../src/podcasts.json');
+var podcasts = require('../src/documentaries.json');
 
 for (var i = 0; i < podcasts.length; i++) {
     generateThrasher(podcasts[i]);
@@ -21,7 +21,7 @@ for (var i = 0; i < podcasts.length; i++) {
 }
 
 generateHomePage();
-copyIllustrations();
+copyPosters();
 
 function generateThrasher(data) {
     var htmlTemplate = handlebars.compile(thrasherHtml);
@@ -57,8 +57,8 @@ function generateHomePage() {
     fs.writeFile('build/index.html', htmlTemplate(podcasts));
 }
 
-function copyIllustrations() {
-    copy('src/illustrations', 'build/illustrations', "Illustrations copied"); 
+function copyPosters() {
+    copy('src/posters', 'build/posters', "Posters copied");
 }
 
 function copy(location, destination, message) {
@@ -71,4 +71,3 @@ function copy(location, destination, message) {
         });
     });
 }
-
