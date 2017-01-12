@@ -3,16 +3,19 @@
         "title": "Gun Nation",
         "description": "A revealing and unsettling journey to the heart of America’s deadly love affair with the gun",
         "url": "https://www.theguardian.com/gun-nation",
-        "poster": "https://uploads.guim.co.uk/2017/01/05/gun-nation@2x.jpg"
+        "poster": "gun-nation@2x.jpg",
+        "handle": "gun-nation"
     }, {
         "title": "Desert Fire",
         "description": "The dreams of the Kurdistan football team in the rebel world cup",
         "url": "https://www.theguardian.com/desert-fire",
-        "poster": "https://uploads.guim.co.uk/2016/12/12/desert-fire-poster.png"
+        "poster": "desert-fire-poster.png",
+        "handle": "desert-fire"
     }, {
         "title": "Radical Brownies",
         "description": "Berets, badges, Black Lives Matter and social justice: the youth group for activist girls of colour",
         "url": "https://www.theguardian.com/radical-brownies",
-        "poster": "https://uploads.guim.co.uk/2017/01/05/Radical-Brownies.jpg"
+        "poster": "Radical-Brownies.jpg",
+        "handle": "radical-brownies"
     }
 ]

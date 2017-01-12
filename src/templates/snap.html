@@ -1,29 +1,12 @@
 <div class="{{ handle }}__card">
-    <style>
-        .{{ handle }}__card .{{ handle }}__artwork {
-            background-color: {{ backgroundColor }};
-            background-image: url('https://interactive.guim.co.uk/doc-cards/posters/{{ poster }}');
-        }
-        .{{ handle }}__card .{{ handle }}__description {
-            color: {{ accentColour }};
-        }
-        {{{ css }}}
-    </style>
-    <div class="{{ handle }}__artwork">
-        <a class="{{ handle }}__artwork-link" href="{{ url }}"></a>
-        <div class="{{ handle }}__content">
-            <p class="{{ handle }}__description">{{ shortDescription }}</p>
-            <h1 class="{{ handle }}__title">{{ title }}</h1>
-        </div>
-    </div>
-    <div class="{{ handle }}__latest">
-        <a class="{{ handle }}__latest-link" href="{{ url }}/latest"></a>
-        <h2 class="{{ handle }}__episode-title">
-            <span class="{{ handle }}__label">Latest episode</span>
-            <span class="{{ handle }}__headline">Fetching...</span>
-        </h2>
-        <a class="{{ handle }}__button" href="{{ url }} ">More Episodes</a>
-    </div>
+    <style>{{{ css }}}</style>
+
+    <h1>{{ title }}</h1>
+    <p>{{ description }}</p>
+    <a href='{{ url }}'>Watch</a>
+    <img src='https://interactive.guim.co.uk/doc-cards/posters/{{ poster }}' width=220>
+
+
     <script>
         if (window.XMLHttpRequest) {
            xhttp = new XMLHttpRequest();
@@ -38,11 +21,5 @@
         xhttp.send(null);
         xmlDoc = xhttp.responseXML;
 
-        var item = xmlDoc.getElementsByTagName("item")[0];
-        var title = item.getElementsByTagName("title")[0].childNodes[0];
-        var textTitle = title.nodeValue.replace("- podcast", "").replace("– podcast", "").replace(" – the Citadel", "").replace(" podcast", "");
-            textTitle = textTitle.split(" – ")[0];
-
-        document.getElementsByClassName("{{ handle }}__headline")[0].innerHTML = textTitle;
     </script>
 </div>

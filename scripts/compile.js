@@ -13,11 +13,11 @@ var snapCss = fs.readFileSync('build/css/snap.css', 'utf8');
 var homeHtml = fs.readFileSync('src/templates/index.html', 'utf8');
 
 // data
-var podcasts = require('../src/documentaries.json');
+var documentaries = require('../src/documentaries.json');
 
-for (var i = 0; i < podcasts.length; i++) {
-    generateThrasher(podcasts[i]);
-    generateSnap(podcasts[i]);
+for (var i = 0; i < documentaries.length; i++) {
+    generateThrasher(documentaries[i]);
+    generateSnap(documentaries[i]);
 }
 
 generateHomePage();
@@ -54,7 +54,7 @@ function generateSnap(data) {
 function generateHomePage() {
     var htmlTemplate = handlebars.compile(homeHtml);
 
-    fs.writeFile('build/index.html', htmlTemplate(podcasts));
+    fs.writeFile('build/index.html', htmlTemplate(documentaries));
 }
 
 function copyPosters() {
