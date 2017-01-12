@@ -5,9 +5,7 @@ A way to autogenerate on-site assets for our podcasts
 
 ## Installation
 
-Get dependencies by running `npm install`. 
-
-If you don't have them added you'll need to add your s3 keys for the gdn-interactive s3 server to your `~/.aws/credentials` file.
+Get dependencies by running `npm install`.
 
 ## Usage
 
