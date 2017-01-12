@@ -29,10 +29,10 @@ var BASE_DIR = path.resolve( 'build' );
 var MAX_CONCURRENT_UPLOADS = 8;
 
 try {
-	var CREDENTIALS = new AWS.EnvironmentCredentials('AWS');
+	var CREDENTIALS = new AWS.SharedIniFileCredentials({profile: 'interactives'});
 	AWS.config.credentials = CREDENTIALS;
 } catch (err) {
-	console.log('Could not find AWS credentials. Make sure tho use the "Export credentials to shell" option in Janus');
+	console.log('Could not find AWS credentials. Make sure they have been added to ~/.aws/credentials');
 	process.exit(1);
 }
 
