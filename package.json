@@ -1,7 +1,7 @@
 {
-  "name": "podcards",
+  "name": "doc-cards",
   "version": "1.0.0",
-  "description": "Guardian Podcards ========================",
+  "description": "Guardian Documentary Cards ===============",
   "main": "index.js",
   "scripts": {
     "sass": "sass --update src/sass/:build/css/",
@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guardian/podcards.git"
+    "url": "git+https://github.com/guardian/doc-cards.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/guardian/podcards/issues"
+    "url": "https://github.com/guardian/doc-cards/issues"
   },
-  "homepage": "https://github.com/guardian/podcards#readme",
+  "homepage": "https://github.com/guardian/doc-cards#readme",
   "devDependencies": {
     "aws-sdk": "^2.5.0",
     "chalk": "^1.1.3",

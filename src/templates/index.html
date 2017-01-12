@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
 
-    <title>Podcards</title>
+    <title>Documentary Cards</title>
     <meta name="robots" content="noindex,noarchive">
 
     <link rel='stylesheet' href='https://interactive.guim.co.uk/gia/fonts/v1/fonts.css'>
@@ -94,7 +94,7 @@
 
 <body>
     <header>
-        <h1>Podcards</h1>
+        <h1>Documentary Cards</h1>
     </header>
 
     <main>
@@ -134,7 +134,7 @@
         getPathValues();
 
         function insertPath(type, data) {
-            var path = data.url + '?gu-snapType=json.html&gu-snapUri=' + encodeURIComponent('https://interactive.guim.co.uk/podcards/' + type + "/" + data.handle + '/source.json') + '&gu-headline=' + encodeURIComponent(data.title) + '&gu-trailText=' + encodeURIComponent(data.description);
+            var path = data.url + '?gu-snapType=json.html&gu-snapUri=' + encodeURIComponent('https://interactive.guim.co.uk/doc-cards/' + type + "/" + data.handle + '/source.json') + '&gu-headline=' + encodeURIComponent(data.title) + '&gu-trailText=' + encodeURIComponent(data.description);
             var target = document.getElementsByClassName(type)[0];
             target.innerHTML = path;
             target.setAttribute('href', path);
