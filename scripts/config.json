@@ -5,7 +5,7 @@
     },
     "remote": {
         "url": "https://interactive.guim.co.uk",
-        "path": "podcards",
+        "path": "doc-cards",
         "bucket": "gdn-cdn"
     }
 }
