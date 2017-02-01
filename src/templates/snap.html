@@ -1,11 +1,11 @@
-<div class="{{ handle }}__card">
+<div class="{{ handle }}__card doc-card">
     <style>{{{ css }}}</style>
 
-    <h1>{{ title }}</h1>
-    <p>{{ description }}</p>
-    <a href='{{ url }}'>Watch</a>
-    <img src='https://interactive.guim.co.uk/doc-cards/posters/{{ poster }}' width=220>
-
+    <img class='doc-card__poster' src='https://interactive.guim.co.uk/doc-cards/posters/{{ poster }}'>
+    <div class='doc-card__meta'>
+        <p class='doc-card__description'>{{ description }}</p>
+        <a class='doc-card__link' href='{{ url }}'></a>
+    </div>
 
     <script>
         if (window.XMLHttpRequest) {

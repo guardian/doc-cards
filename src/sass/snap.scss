@@ -13,159 +13,45 @@ $mq-breakpoints: (
     wide:            1300px
 );
 
-.handle__card {
+.doc-card {
+    position: relative;
+    background-color: #161616;
+    color: #F6F6F6;
     font-family: "Guardian Egyptian Web","Guardian Text Egyptian Web",Georgia,serif;
-    font-weight: 400;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border-top: 1px solid #fb0;
-    background-color: #333;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
 
-    .handle__artwork {
-        position: relative;
-        height: 0;
-        padding-top: 100%;
-        background-position: right center;
-        background-repeat: no-repeat;
-        background-size: auto 100%;
+    font-size: 16px;
+    line-height: 18px;
+    @include mq(mobileLandscape) {
+        font-size: 18px;
+        line-height: 20px;
     }
-
-    .handle__artwork-link {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: 10;
-
-        &:hover {
-            background-color: rgba(0, 0, 0, .1);
-        }
+    @include mq(phablet) {
+        font-size: 16px;
+        line-height: 18px;
     }
-
-    .handle__content {
-        position: absolute;
-        top: 4px;
-        left: 6px;
-        padding-right: 45%;
+    @include mq(tablet) {
+        font-size: 18px;
+        line-height: 20px;
     }
-
-    .handle__description {
-        font-size: 14px;
-        line-height: 1.3;
-        margin: 0;
-
-        @include mq(tablet, desktop) {
-            display: none;
-        }
-    }
-
-    .handle__title {
-        font-size: 20px;
-        line-height: 1.1;
-        margin: 0;
-        font-weight: 900;
-        margin-top: 2px;
-    }
-
-    .handle__latest {
-        position: relative;
-        padding: 4px 6px;
-        flex-grow: 2;
-
-        @include mq(tablet) {
-            padding-bottom: 40px;
-        }
-    }
-
-    .handle__latest-link {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-
-        &:hover {
-            background-color: rgba(0, 0, 0, .1);
-        }
-    }
-
-    .handle__episode-title {
-        margin: 0;
-        font-size: 20px;
-        line-height: 1.2;
-        font-weight: 500;
-        -webkit-font-smoothing: antialiased;
-        margin-bottom: 18px;
-    }
-
-    .handle__label {
+    &__poster {
+        max-width: 100%;
         display: block;
-        color: #fb0;
-    }
-
-    .handle__button {
-        position: absolute;
-        bottom: 4px;
-        z-index: 10;
-        font-family: "Guardian Text Sans Web","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-        color: #fb0;
-        border: 1px solid #fb0;
-        border-radius: 24px;
-        padding: 3px 9px 2px;
-        text-decoration: none;
-        font-size: 12px;
         margin-bottom: 6px;
-        display: inline-block;
-    
-        &:hover {
-            background-color: #fb0;
-            color: #333;
-        }
     }
-}
-
-#other-podcasts,
-#podcasts {
-    @include mq($until: tablet) {
-        .fc-slice {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .fc-slice__item {
-            width: 50%;
-            display: flex;
-        }
-
-        .fc-item {
-            background-color: transparent;
-            height: auto;
-            display: flex;
-        }
-
-        .handle__card {
-            display: flex;
-        }
-
-        .handle__title,
-        .handle__episode-title {
-            font-size: 16px;
-        }
-
-        .handle__button {
-            display: none;
-        }
+    &__description {
+        font-size: inherit;
+        line-height: inherit;
+        font-weight: 500;
+        padding-bottom: 6px;
+        margin: 0;
     }
-
-    @include mq($until: mobileLandscape) {
-        .handle__description {
-            display: none;
-        }
+    & &__link {
+        text-indent: -9em;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
     }
 }
