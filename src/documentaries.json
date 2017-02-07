@@ -1,5 +1,11 @@
 [
     {
+        "title": "Battle for Mosul",
+        "description": "Join the Iraqi forces on the frontline in their attempt to retake Mosul from Isis",
+        "url": "https://www.theguardian.com/world/ng-interactive/2017/feb/01/battle-for-mosul-iraq-isis-dirty-war-video",
+        "poster": "Mosul.min.jpg",
+        "handle": "battle-for-mosul"
+    }, {
         "title": "Gun Nation",
         "description": "A revealing and unsettling journey to the heart of America’s deadly love affair with the gun",
         "url": "https://www.theguardian.com/gun-nation",
@@ -49,7 +55,7 @@
         "handle": "from-space-syria-is-here"
     }, {
         "title": "From the Bronx to Yale",
-        "description": "High school students from the Bronx, New York, compete in a ‘speech’ competition at Yale University",
+        "description": "High school students from New York, in a ‘speech’ competition at Yale University",
         "url": "https://www.theguardian.com/news/video/2016/jan/18/speech-bronx-yale-high-school-video",
         "poster": "From-the-bronx-to-yale.jpg",
         "handle": "from-the-bronx-to-yale"
@@ -87,7 +93,7 @@
         "title": "Rebels with a Cause",
         "description": "The Night Wolves: Putin's motorbiking militia of Luhansk",
         "url": "https://www.theguardian.com/news/video/2016/jan/29/the-night-wolves-putins-motorbiking-militia-of-luhansk-video",
-        "poster": ".jpg",
+        "poster": "Rebels-with-a-cause.jpg",
         "handle": "rebels-with-a-cause"
     }, {
         "title": "Right to fight",
