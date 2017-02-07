@@ -17,7 +17,6 @@
         xhttp.overrideMimeType('text/xml');
 
         xhttp.open("GET", '{{ url }}/rss', false);
-        // xhttp.open("GET", 'http://localhost:8080/rss.xml', false);
         xhttp.send(null);
         xmlDoc = xhttp.responseXML;
 
