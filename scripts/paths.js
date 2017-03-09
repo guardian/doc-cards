@@ -14,9 +14,13 @@ for (var i = 0; i < documentaries.length; i++) {
 
 var selectedDocumentary = readlineSync.keyInSelect(arrayOfDocumentaries, 'What documentary do ya wanna know about?');
 
-console.log('Thrasher'.rainbow.bold.underline.inverse);
-console.log('Local: '.bold.yellow + returnPath('local', 'thrasher'));
-console.log('Remote: '.bold.green + returnPath('remote', 'thrasher'));
+// console.log('Thrasher'.rainbow.bold.underline.inverse);
+// console.log('Local: '.bold.yellow + returnPath('local', 'thrasher'));
+// console.log('Remote: '.bold.green + returnPath('remote', 'thrasher'));
+
+console.log('Header'.rainbow.bold.underline.inverse);
+console.log('Local: '.bold.yellow + returnPath('local', 'header'));
+console.log('Remote: '.bold.green + returnPath('remote', 'header'));
 
 console.log('\nCard'.rainbow.bold.underline.inverse);
 console.log('Local: '.bold.yellow + returnPath('local', 'snap'));

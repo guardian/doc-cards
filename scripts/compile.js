@@ -5,12 +5,12 @@ var mkpath = require('mkpath');
 var ncp = require('ncp').ncp;
 
 // Define what we're building
-var snapTemplates = ['thrasher', 'snap'];
+var snapTemplates = ['thrasher', 'snap', 'header'];
 var documentaries = require('../src/documentaries.json');
 
 // Build
 generateHomePage();
-copyPosters();
+copyImages();
 for (var i = 0; i < snapTemplates.length; i++) {
     for (var j = 0; j < documentaries.length; j++) {
         generate(snapTemplates[i], documentaries[j]);
@@ -44,8 +44,9 @@ function generateHomePage() {
     fs.writeFile('build/index.html', htmlTemplate(documentaries));
 }
 
-function copyPosters() {
+function copyImages() {
     copy('src/posters', 'build/posters', "Posters copied");
+    copy('src/headers', 'build/headers', "Headers copied");
 }
 
 function copy(location, destination, message) {

@@ -104,8 +104,11 @@
             {{/each}}
         </select>
 
-        <h2>Thrasher snap</h2>
-        <a class="thrasher"></a>
+        <!-- <h2>Thrasher snap</h2>
+        <a class="thrasher"></a> -->
+
+        <h2>Header snap</h2>
+        <a class="header"></a>
 
         <h2>Card snap</h2>
         <a class="snap"></a>
@@ -127,7 +130,8 @@
                 'description': option.getAttribute('data-description')
             };
 
-            insertPath('thrasher', data);
+            // insertPath('thrasher', data);
+            insertPath('header', data);
             insertPath('snap', data);
         }
 
