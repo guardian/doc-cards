@@ -121,10 +121,10 @@
 
     <script type="text/javascript">
         function getPathValues() {
-            var title = document.getElementsByTagName('select')[0].value;
-            var option = document.getElementsByClassName(title)[0];
+            var selected = document.getElementsByTagName('select')[0].value;
+            var option = document.getElementsByClassName(selected)[0];
             var data = {
-                'title': title,
+                'title': option.text,
                 'url': option.getAttribute('data-url'),
                 'handle': option.getAttribute('data-handle'),
                 'description': option.getAttribute('data-description')
