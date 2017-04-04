@@ -26,6 +26,10 @@ console.log('\nCard'.rainbow.bold.underline.inverse);
 console.log('Local: '.bold.yellow + returnPath('local', 'snap'));
 console.log('Remote: '.bold.green + returnPath('remote', 'snap'));
 
+console.log('\nEmbed'.rainbow.bold.underline.inverse);
+console.log('Local: '.bold.yellow + returnPath('local', 'embed'));
+console.log('Remote: '.bold.green + returnPath('remote', 'embed'));
+
 function returnPath(env, type) {
     return documentaries[selectedDocumentary].url + '?gu-snapType=json.html&gu-snapUri=' + encodeURIComponent(config[env].url + (env == 'local' ? ":" + config.local.port : "/" + config.remote.path) + "/" + type + "/" + documentaries[selectedDocumentary].handle + '/source.json') + '&gu-headline=' + encodeURIComponent(documentaries[selectedDocumentary].title) + '&gu-trailText=' + encodeURIComponent(documentaries[selectedDocumentary].description);
 }

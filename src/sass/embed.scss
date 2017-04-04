@@ -1,0 +1,71 @@
+// Default breakpoints from Frontend
+$mq-breakpoints: (
+    mobile:          320px,
+    mobileLandscape: 480px,
+    phablet:         660px,
+    tablet:          740px,
+    desktop:         980px,
+    leftCol:         1140px,
+    wide:            1300px
+);
+
+@import "../../node_modules/sass-mq/mq";
+
+@import "partials/reset";
+
+
+
+.embed {
+    max-width: 300px;
+    @media only screen and (max-width: 380px) and (min-width: 380px)  {
+        float: right;
+    }
+    position: relative;
+    color: #333;
+    font-family: "Guardian Egyptian Web","Guardian Text Egyptian Web",Georgia,serif;
+    font-size: 18px;
+    line-height: 22px;
+    @media only screen and (max-width: 141px) {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    font-weight: 500;
+    img {
+        display: block;
+        max-width: 100%;
+    }
+    .meta {
+        padding: 6px 1px 12px;
+        .play {
+            font-family: "Guardian Text Sans Web","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+            color: #333;
+            font-size: 16px;
+            line-height: 22px;
+            svg, span {
+                vertical-align: middle;
+            }
+            @media only screen and (max-width: 141px) {
+                font-size: 14px;
+                svg {
+                    transform-origin: center left;
+                    transform: scale(0.8);
+                    margin-right: -6px;
+                }
+            }
+        }
+    }
+    .link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+        &:hover ~ .meta .description {
+            opacity: 0.8;
+        }
+        &:hover ~ img {
+            opacity: 0.9;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="https://interactive.guim.co.uk/embed/webwewant/www-gu-type.css">
+    <style>{{{ css }}}</style>
+</head>
+<body>
+    <div class="embed doc-card">
+
+
+        <a class='link' href='{{ url }}' target='_top'></a>
+        <img class='poster' src='https://interactive.guim.co.uk/doc-cards/posters/{{ poster }}'>
+        <div class='meta'>
+            <p class='description'>{{ description }}</p>
+            <p class='play'>
+                <svg width="42" height="42" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><ellipse fill="#FB0" cx="20.6" cy="20.61" rx="20.6" ry="20.61"/><path fill="#333" d="M33.7 21.07v-.95l-21.1-8.75-.8.62v17.2l.8.54"/></g></svg>
+                <span>Watch now</span>
+            </p>
+        </div>
+
+    </div>
+
+
+    <script src="https://interactive.guim.co.uk/libs/iframe-messenger/iframeMessenger.js"></script>
+    <script>
+        iframeMessenger.enableAutoResize();
+    </script>
+
+</body>
+</html>

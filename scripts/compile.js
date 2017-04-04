@@ -5,7 +5,7 @@ var mkpath = require('mkpath');
 var ncp = require('ncp').ncp;
 
 // Define what we're building
-var snapTemplates = ['thrasher', 'snap', 'header'];
+var snapTemplates = ['thrasher', 'snap', 'header', 'embed'];
 var documentaries = require('../src/documentaries.json');
 
 // Build
@@ -28,13 +28,21 @@ function generate(template, data) {
         data.css = cssFile.replace(/handle/g, data.handle);
         data.html = JSON.stringify(htmlTemplate(data), null);
 
+    var htmlPage = htmlTemplate(data);
+
     var jsonTemplate = handlebars.compile(jsonFile);
     var json = jsonTemplate(data);
+
 
     var path = 'build/'+template+'/' + data.handle;
     mkpath(path, function() {
         fs.writeFile(path + '/source.json', json);
     });
+
+    mkpath(path, function() {
+        fs.writeFile(path + '/index.html', htmlPage);
+    });
+
 }
 
 function generateHomePage() {
