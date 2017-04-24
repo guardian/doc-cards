@@ -1,5 +1,12 @@
 [
     {
+        "title": "The Fight",
+        "description": "Strapline for the fight here;",
+        "url": "https://www.theguardian.com/world/ng-interactive/2017/apr/13/island-video",
+        "poster": "The-Fight.jpg",
+        "header": "The-Fight.jpg",
+        "handle": "the-fight"
+    }, {
         "title": "The Island",
         "description": "The asylum seekers, the therapist and the sandbox on Christmas Island",
         "url": "https://www.theguardian.com/world/ng-interactive/2017/apr/13/crossing-boundaries-crabs-asylum-seekers-and-therapy-on-christmas-island-video",
