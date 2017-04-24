@@ -1,8 +1,15 @@
 [
     {
+        "title": "The Island",
+        "description": "The asylum seekers, the therapist and the sandbox on Christmas Island",
+        "url": "https://www.theguardian.com/world/ng-interactive/2017/apr/13/crossing-boundaries-crabs-asylum-seekers-and-therapy-on-christmas-island-video",
+        "poster": "The-Island.jpg",
+        "header": "The-Island.jpg",
+        "handle": "the-island"
+    }, {
         "title": "Erica: Man made",
         "description": "The future is closer than we think",
-        "url": "https://www.theguardian.com/documentaries",
+        "url": "https://www.theguardian.com/technology/ng-interactive/2017/apr/07/meet-erica-the-worlds-most-autonomous-android-video",
         "poster": "Erica.jpg",
         "header": "Erica.jpg",
         "handle": "erica"

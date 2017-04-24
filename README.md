@@ -7,6 +7,8 @@ A way to autogenerate on-site assets for our documentaries
 
 Get dependencies by running `npm install`.
 
+Make sure you have sass installed by running `gem install sass`.
+
 If you don't have them added you'll need to add your s3 keys for the gdn-interactive s3 server to your `~/.aws/credentials` file.
 
 ## Usage
