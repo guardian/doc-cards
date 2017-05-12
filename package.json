@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --update src/sass/:build/css/",
-    "precompile": "npm run sass",
+    "clean": "rm -rf build",
+    "precompile": "npm run clean && npm run sass",
     "compile": "node scripts/compile.js",
     "paths": "node scripts/paths.js",
     "serve": "node scripts/serve.js",
