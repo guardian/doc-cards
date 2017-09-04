@@ -1,5 +1,13 @@
 [
   {
+      "title": "Second Innings",
+      "description": "From Afghanistan to London, three boys build a new life playing cricket",
+      "url": "http://www.theguardian.com/world/ng-interactive/2017/sep/07/second-innings-how-cricket-is-helping-three-afghan-boys-build-a-new-life-in-london",
+      "poster": "SecondInningsPoster.jpg",
+      "header": "SecondInningsheader.jpg",
+      "handle": "second-innings"
+  },
+  {
       "title": "Dearborn, Michigan",
       "description": "Dearborn, Michigan - the divided city debating what it means to be an American today",
       "url": "https://www.theguardian.com/us-news/ng-interactive/2017/aug/04/dearborn-michigan-divided-muslim-american-donald-trump-documentary",
