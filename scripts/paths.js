@@ -9,10 +9,11 @@ var config = require('../scripts/config.json');
 var arrayOfDocumentaries = [];
 
 for (var i = 0; i < documentaries.length; i++) {
+    console.log(i+": "+documentaries[i].title)
     arrayOfDocumentaries.push(documentaries[i].title);
 }
 
-var selectedDocumentary = readlineSync.keyInSelect(arrayOfDocumentaries, 'What documentary do ya wanna know about?');
+var selectedDocumentary = readlineSync.questionInt('Select documentary number (0–'+(i-1)+') ', arrayOfDocumentaries);
 
 // console.log('Thrasher'.rainbow.bold.underline.inverse);
 // console.log('Local: '.bold.yellow + returnPath('local', 'thrasher'));
