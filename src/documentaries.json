@@ -1,11 +1,27 @@
 [
   {
+      "title": "Home Match",
+      "description": "One crucial year in the life of a footballer and caregiver",
+      "url": "https://www.theguardian.com",
+      "poster": "Home-Match-poster.jpg",
+      "header": "Home-Match-header.jpg",
+      "handle": "home-match"
+  },
+  {
       "title": "Qandeel",
       "description": "Pakistan's working class social media heroine",
       "url": "https://www.theguardian.com/world/ng-interactive/2017/sep/22/qandeel-baloch-the-life-death-and-impact-of-pakistans-working-class-icon",
       "poster": "Qandeel-POSTER.jpg",
       "header": "Qandeel-HEADER.jpg",
       "handle": "qandeel"
+  },
+  {
+      "title": "Second Innings",
+      "description": "From Afghanistan to London, three boys build a new life playing cricket",
+      "url": "http://www.theguardian.com/world/ng-interactive/2017/sep/07/second-innings-how-cricket-is-helping-three-afghan-boys-build-a-new-life-in-london",
+      "poster": "SecondInningsPoster.jpg",
+      "header": "SecondInningsheader.jpg",
+      "handle": "second-innings"
   },
   {
       "title": "Dearborn, Michigan",
