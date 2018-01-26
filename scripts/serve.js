@@ -12,7 +12,13 @@ var file = new static.Server('./build', {
 
 console.log("serving");
 
-require('http').createServer(function (request, response) {
+// https://nodejs.org/api/https.html#https_https_createserver_options_requestlistener
+var options = {
+    key: '',
+    cert: ''
+};
+
+require('https').createServer(options, function (request, response) {
     request.addListener('end', function () {
         file.serve(request, response);
     }).resume();
