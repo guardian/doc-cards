@@ -14,8 +14,8 @@ console.log("serving");
 
 // https://nodejs.org/api/https.html#https_https_createserver_options_requestlistener
 var options = {
-    key: '',
-    cert: ''
+    key: '~/.localhost-ssl/Certificates.pem',
+    cert: '~/.localhost-ssl/localhost.cer'
 };
 
 require('https').createServer(options, function (request, response) {
