@@ -41,5 +41,9 @@
     "readline-sync": "^1.4.4",
     "sass-mq": "^3.2.9",
     "stevedore": "^0.1.4"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "require-https": "^1.1.1"
   }
 }

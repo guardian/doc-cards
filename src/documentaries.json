@@ -1,5 +1,20 @@
 [
-
+  {
+      "title": "Conectifai",
+      "description": "Public wifi and pork crackling in the park - Cubans get online",
+      "url": "https://www.theguardian.com/world/ng-interactive/2018/feb/02/pork-crackling-wifi-parks-havana-hotspot-conectifai-documentary",
+      "poster": "Conectifai-Poster.jpg",
+      "header": "Conectifai-Header.jpg",
+      "handle": "conectifai"
+  },
+  {
+      "title": "Killing Gävle",
+      "description": "The uncertain fate of a giant Christmas goat",
+      "url": "https://www.theguardian.com/world/ng-interactive/2017/dec/15/killing-gavle-swedish-city-40ft-goat-battle-for-the-spirit-of-christmas",
+      "poster": "Killing-Gavle-Poster.jpg",
+      "header": "Killing-Gavle-Header.jpg",
+      "handle": "killing-gavle"
+  },
   {
       "title": "On The Road",
       "description": "Working and living on the Italian road of 'love'",

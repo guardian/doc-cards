@@ -76,10 +76,10 @@ $mq-breakpoints: (
             margin-left: 250px;
         }    }
     .logo {
-        top: 5px;
+        top: 8px;
         svg {
-            width: 164px;
-            height: 92px;
+            width: 250px;
+            height: 45px;
             transform-origin: top left;
             transform: scale(0.8);
             @include mq(tablet) {
@@ -93,7 +93,7 @@ $mq-breakpoints: (
     .meta {
         bottom: 12px;
         font-size: 18px;
-        line-height: 22px;
+        line-height: 24px;
         font-family: "Guardian Egyptian Web","Guardian Text Egyptian Web",Georgia,serif;
         font-weight: 900;
 
@@ -124,7 +124,7 @@ $mq-breakpoints: (
             display: inline-block;
             margin-top: 6px;
             font-family: "Guardian Text Sans Web","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-            color: #fb0;
+            color: #ffffff;
             text-decoration: none;
             line-height: 34px;
             padding: 0 10px;
@@ -136,7 +136,9 @@ $mq-breakpoints: (
                 vertical-align: top;
                 width: 32px;
                 height: 32px;
-                background-image: url('data:image/svg+xml;utf8,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%20120%2032%2032%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cdefs%3E%3Ccircle%20id%3D%22a%22%20cx%3D%2216%22%20cy%3D%2216%22%20r%3D%2216%22%2F%3E%3Cmask%20id%3D%22b%22%20x%3D%220%22%20y%3D%220%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22%23fff%22%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%2F%3E%3C%2Fmask%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20transform%3D%22translate(0%20120)%22%3E%3Cuse%20stroke%3D%22%23FB0%22%20mask%3D%22url(%23b)%22%20stroke-width%3D%222%22%20xlink%3Ahref%3D%22%23a%22%2F%3E%3Cpath%20fill%3D%22%23FB0%22%20d%3D%22M25%2016.36v-.67L10.53%209.5l-.53.43v12.2l.53.37%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+                // background-image: url('data:image/svg+xml;utf8,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%20120%2032%2032%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cdefs%3E%3Ccircle%20id%3D%22a%22%20cx%3D%2216%22%20cy%3D%2216%22%20r%3D%2216%22%2F%3E%3Cmask%20id%3D%22b%22%20x%3D%220%22%20y%3D%220%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22%23fff%22%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%2F%3E%3C%2Fmask%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20transform%3D%22translate(0%20120)%22%3E%3Cuse%20stroke%3D%22%23FB0%22%20mask%3D%22url(%23b)%22%20stroke-width%3D%222%22%20xlink%3Ahref%3D%22%23a%22%2F%3E%3Cpath%20fill%3D%22%23FB0%22%20d%3D%22M25%2016.36v-.67L10.53%209.5l-.53.43v12.2l.53.37%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+
+                background-image:url('data:image/svg+xml;utf8,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%20120%2032%2032%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cdefs%3E%3Ccircle%20id%3D%22a%22%20cx%3D%2216%22%20cy%3D%2216%22%20r%3D%2216%22%2F%3E%3Cmask%20id%3D%22b%22%20x%3D%220%22%20y%3D%220%22%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22%23fff%22%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%2F%3E%3C%2Fmask%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20transform%3D%22translate(0%20120)%22%3E%3Cuse%20stroke%3D%22%23FFF%22%20mask%3D%22url(%23b)%22%20stroke-width%3D%222%22%20xlink%3Ahref%3D%22%23a%22%2F%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M25%2016.36v-.67L10.53%209.5l-.53.43v12.2l.53.37%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E');
                 transition: scale 600ms;
                 background-repeat: no-repeat;
             }
