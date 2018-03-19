@@ -1,5 +1,21 @@
 [
   {
+      "title": "White Fright",
+      "description": "Conspiracies, violence and media silence in Islamberg",
+      "url": "http://www.theguardian.com/world/ng-interactive/2018/mar/23/white-fright-the-plot-to-massacre-muslims-that-the-us-media-ignored",
+      "poster": "White-Fright-Poster.jpg",
+      "header": "White-Fright-Header.jpg",
+      "handle": "white-fright"
+  },
+  {
+      "title": "How to Make a Pearl",
+      "description": "After a decade of darkness, an artist finds the light",
+      "url": "https://www.theguardian.com/artanddesign/ng-interactive/2018/mar/02/how-to-make-a-pearl-the-san-francisco-man-who-lives-in-darkness",
+      "poster": "Pearl-Poster.jpg",
+      "header": "Pearl-Header.jpg",
+      "handle": "how-to-make-a-pearl"
+  },
+  {
       "title": "Conectifai",
       "description": "Public wifi and pork crackling in the park - Cubans get online",
       "url": "https://www.theguardian.com/world/ng-interactive/2018/feb/02/pork-crackling-wifi-parks-havana-hotspot-conectifai-documentary",
