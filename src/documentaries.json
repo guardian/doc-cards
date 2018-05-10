@@ -1,5 +1,37 @@
 [
   {
+      "title": "Four Weddings",
+      "description": "The story of four non-royal brides and their wedding days​",
+      "url": "https://www.theguardian.com/news/ng-interactive/2018/may/14/four-weddings-four-alternative-nuptials-to-harry-and-meghans-video",
+      "poster": "Four-Weddings-Poster.jpg",
+      "header": "Four-Weddings-Header.jpg",
+      "handle": "four-weddings"
+  },
+  {
+      "title": "The Climate and The Cross",
+      "description": "Evangelical Christians tussle over climate change",
+      "url": "https://www.theguardian.com/environment/ng-interactive/2018/apr/13/the-climate-and-the-cross-us-evangelical-christians-tussle-with-climate-change",
+      "poster": "Climate-Cross-Poster.jpg",
+      "header": "Climate-Cross-Header.jpg",
+      "handle": "the-climate-and-the-cross"
+  },
+  {
+      "title": "White Fright",
+      "description": "Conspiracies, violence and media silence in Islamberg",
+      "url": "https://www.theguardian.com/world/ng-interactive/2018/mar/23/white-fright-the-plot-to-massacre-muslims-that-the-us-media-ignored",
+      "poster": "White-Fright-Poster.jpg",
+      "header": "White-Fright-Header.jpg",
+      "handle": "white-fright"
+  },
+  {
+      "title": "How to Make a Pearl",
+      "description": "After a decade of darkness, an artist finds the light",
+      "url": "https://www.theguardian.com/artanddesign/ng-interactive/2018/mar/02/how-to-make-a-pearl-the-san-francisco-man-who-lives-in-darkness",
+      "poster": "Pearl-Poster.jpg",
+      "header": "Pearl-Header.jpg",
+      "handle": "how-to-make-a-pearl"
+  },
+  {
       "title": "Conectifai",
       "description": "Public wifi and pork crackling in the park - Cubans get online",
       "url": "https://www.theguardian.com/world/ng-interactive/2018/feb/02/pork-crackling-wifi-parks-havana-hotspot-conectifai-documentary",
