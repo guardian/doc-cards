@@ -1,8 +1,16 @@
 [
   {
+      "title": "Little Pyongyang",
+      "description": "A tale of one North Korean's struggle to leave behind the homeland",
+      "url": "",
+      "poster": "Little-Pyongyang-Poster.jpg",
+      "header": "Little-Pyongyang-Header.jpg",
+      "handle": "little-pyongyang"
+  },
+  {
       "title": "Cops and Robbers",
       "description": "The New York cop from the streets",
-      "url": "https://www.theguardian.com/us-news/ng-interactive/2018/jul/27/cops-and-robbers-corey-pegues-new-york-documentary",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2018/jul/27/cops-and-robbers-corey-pegues-new-york-documentary-video",
       "poster": "Cops-And-Robbers-Poster.jpg",
       "header": "Cops-And-Robbers-Header.jpg",
       "handle": "cops-and-robbers"
