@@ -1,5 +1,29 @@
 [
   {
+      "title": "Fighting Shame",
+      "description": "Stories of poverty in Leeds through eight objects",
+      "url": "https://www.theguardian.com/news/ng-interactive/2019/jan/25/fighting-shame-women-leeds-tell-stories-fighting-poverty",
+      "poster": "Fighting-Shame-Poster.jpg",
+      "header": "Fighting-Shame-Header.jpg",
+      "handle": "fighting-shame"
+  },
+  {
+      "title": "Marielle and Monica",
+      "description": "The LGBT activists resisting Bolsonaro's Brazil",
+      "url": "https://www.theguardian.com/world/ng-interactive/2018/dec/28/marielle-and-monica-the-lgbt-activists-resisting-bolsonaros-brazil",
+      "poster": "Marielle-and-Monica-Poster.jpg",
+      "header": "Marielle-and-Monica-Header.jpg",
+      "handle": "marielle-and-monica"
+  },
+  {
+      "title": "Crisanto Street",
+      "description": "A child living in a mobile home in Silicon Valley ",
+      "url": "https://www.theguardian.com/news/ng-interactive/2018/dec/18/crisanto-street-a-child-living-in-a-mobile-home-in-silicon-valley-video",
+      "poster": "Crisanto-Street-Poster.jpg",
+      "header": "Crisanto-Street-Header.jpg",
+      "handle": "crisanto-street"
+  },
+  {
         "title": "Skip Day",
         "description": "Prom’s over, and the future is uncertain for friends on the beach in Florida",
         "url": "https://www.theguardian.com/news/ng-interactive/2018/nov/29/skip-day-high-school-friendship-and-everyday-racism-at-the-beach-in-florida-video",
