@@ -1,5 +1,21 @@
 [
   {
+    "title": "Sam and the Plant Next Door",
+    "description": "Growing up next to Britain’s new nuclear power plant",
+    "url": "",
+    "poster": "Sam-Poster.jpg",
+    "header": "Sam-Header.jpg",
+    "handle": "sam-and-the-plant-next-door"
+},
+  {
+    "title": "Anonymous Comes to Town",
+    "description": "The hackers who took on high school sexual assault",
+    "url": "https://www.theguardian.com/news/ng-interactive/2019/apr/18/anonymous-comes-to-town-how-hackers-took-on-high-school-sexual-assault-in-ohio",
+    "poster": "Anonymous-comes-to-town.jpg",
+    "header": "Anonymous-comes-to-town.jpg",
+    "handle": "anonymous-comes-to-town"
+},
+  {
     "title": "Lasting Marks",
     "description": "16 men on trial for sadomasochism in Thatcher's Britain",
     "url": "https://www.theguardian.com/society/ng-interactive/2019/apr/12/lasting-marks-16-men-put-on-trial-for-sadomasochism-video",
