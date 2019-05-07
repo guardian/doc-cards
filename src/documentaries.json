@@ -1,5 +1,21 @@
 [
   {
+    "title": "Once Upon a Lynching",
+    "description": "Headline goes here",
+    "url": "",
+    "poster": "Once-Upon-Poster.jpg",
+    "header": "Once-Upon-Header.jpg",
+    "handle": "once-upon-a-lynching"
+},
+  {
+    "title": "Buyers Club",
+    "description": "Headline goes here",
+    "url": "https://theguardian.com/",
+    "poster": "Buyers-Club-Poster.jpg",
+    "header": "Buyers-Club-Header.jpg",
+    "handle": "buyers-club"
+},
+  {
     "title": "Sam and the Plant Next Door",
     "description": "Growing up next to Britain’s new nuclear power plant",
     "url": "https://theguardian.com/uk-news/ng-interactive/2019/may/03/sam-and-the-plant-next-door-growing-up-with-hinkley-point-video",
