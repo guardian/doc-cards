@@ -1,5 +1,13 @@
 [
   {
+    "title": "Trapped in a City of a Thousand Mountains",
+    "description": "A new phenomenon of authentic Chinese rap has taken the internet by storm",
+    "url": "https://www.theguardian.com",
+    "poster": "Trapped-In-A-City-Poster.jpg",
+    "header": "Trapped-In-A-City-Header.jpg",
+    "handle": "trapped-in-a-city-of-a-thousand-mountains"
+},
+  {
     "title": "The Hour of Lynching",
     "description": "Vigilante violence against Muslim farmers in India",
     "url": "https://www.theguardian.com/news/ng-interactive/2019/may/24/the-hour-of-lynching-vigilante-violence-against-muslims-in-india-video",
@@ -10,7 +18,7 @@
   {
     "title": "Buyers Club",
     "description": "The global network for low cost Hepatitis C drugs",
-    "url": "https://theguardian.com/",
+    "url": "https://theguardian.com",
     "poster": "Buyers-Club-Poster.jpg",
     "header": "Buyers-Club-Header.jpg",
     "handle": "buyers-club"
