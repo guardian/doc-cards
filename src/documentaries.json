@@ -1,5 +1,13 @@
 [
   {
+    "title": "The Waiting Room",
+    "description": "Header goes here",
+    "url": "https://www.theguardian.com",
+    "poster": "The-Waiting-Room.jpg",
+    "header": "The-Waiting-Room.jpg",
+    "handle": "the-waiting-room"
+},
+  {
     "title": "Trapped in a City of a Thousand Mountains",
     "description": "A new phenomenon of authentic Chinese rap has taken the internet by storm",
     "url": "https://www.theguardian.com",
@@ -18,7 +26,7 @@
   {
     "title": "Buyers Club",
     "description": "The global network for low cost Hepatitis C drugs",
-    "url": "https://www.theguardian.com/news/ng-interactive/2019/jun/03/the-buyers-club-for-people-seeking-low-cost-hepatitis-c-medicine-video",
+    "url": "https://www.theguardian.com/news/ng-interactive/2019/jun/03/buyers-club-the-network-providing-people-with-affordable-hepatitis-c-medicine-video",
     "poster": "Buyers-Club-Poster.jpg",
     "header": "Buyers-Club-Header.jpg",
     "handle": "buyers-club"
