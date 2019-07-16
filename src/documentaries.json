@@ -1,5 +1,19 @@
 [
   {
+    "title": "Share",
+    "description": "An instagram star at a crossroads",
+    "url": "https://www.theguardian.com/society/ng-interactive/2019/jul/19/share-an-instagram-star-at-a-crossroads-video",
+    "poster": "Share-Poster.jpg",
+    "header": "Share-Header.jpg",
+    "handle": "share"
+},{
+  "title": "Crannog",
+  "description": "The woman who cares for animals at the end of their lives",
+  "url": "https://www.theguardian.com/news/ng-interactive/2019/jul/12/crannog-the-woman-who-cares-for-animals-at-the-end-of-their-lives-video",
+  "poster": "Crannog-Poster.jpg",
+  "header": "Crannog-Header.jpg",
+  "handle": "crannog"
+},{
     "title": "The Waiting Room",
     "description": "A single parent and her son's unflinching account of living with cancer",
     "url": "https://www.theguardian.com/news/ng-interactive/2019/jun/28/the-waiting-room-single-parents-unflinching-account-living-with-cancer-video",
