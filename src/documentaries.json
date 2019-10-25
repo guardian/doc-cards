@@ -1,5 +1,13 @@
 [
     {
+        "title": "Lost Rambos",
+        "description": "Tribal fighting in Papua New Guinea",
+        "url": "https://www.theguardian.com/world/ng-interactive/2019/oct/28/the-lost-rambos-of-papua-new-guinea-how-weapons-and-hollywood-changed-tribal-disputes-video",
+        "poster": "Lost-Rambos-Poster.jpg",
+        "header": "Lost-Rambos-Header.jpg",
+        "handle": "lost-rambos"
+    },
+    {
         "title": "After Windrush",
         "description": "One woman's journey back to Jamaica, 50 years on",
         "url": "https://www.theguardian.com/news/ng-interactive/2019/oct/07/after-windrush-paulette-wilsons-visit-to-jamaica-50-years-on",
