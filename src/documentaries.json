@@ -1,5 +1,21 @@
 [
     {
+        "title": "Scars",
+        "description": "—",
+        "url": "https://www.theguardian.com/",
+        "poster": "Scars-Poster.jpg",
+        "header": "Scars-Header.jpg",
+        "handle": "scars"
+    },
+    {
+        "title": "Nowt but a fleeting thing",
+        "description": "—",
+        "url": "https://www.theguardian.com/",
+        "poster": "Nowt-Poster.jpg",
+        "header": "Nowt-Header.jpg",
+        "handle": "nowt-but-a-fleeting-thing"
+    },
+    {
         "title": "Lost Rambos",
         "description": "Tribal fighting in Papua New Guinea",
         "url": "https://www.theguardian.com/world/ng-interactive/2019/oct/28/the-lost-rambos-of-papua-new-guinea-how-weapons-and-hollywood-changed-tribal-disputes-video",
